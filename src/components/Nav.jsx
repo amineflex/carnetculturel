@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'Accueil', href: '/' },
@@ -11,7 +12,9 @@ const navigation = [
     { name: 'Bilan', href: '/bilan' },
 ]
 
-function Nav(title, { currentPage }){
+function Nav(title){
+  const currentPage = window.location.pathname;
+
     return(
 
         <Popover>
@@ -20,17 +23,15 @@ function Nav(title, { currentPage }){
           <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
             <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
-                  <span className="sr-only">Workflow</span>
+                <Link to="/">
                   <img
-                    className="h-8 w-auto sm:h-10"
+                    className="h-8 w-auto sm:h-10 select-none"
                     src="https://www.zelda.com/tears-of-the-kingdom/images/heading-shape.svg"
-                    alt=""
+                    alt="Logo"
                   />
-                </a>
+                </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="bg-light rounded-md p-2 inline-flex items-center justify-center text-secondary hover:text-light hover:bg-secondary focus:outline-none duration-500">
-                    <span className="sr-only">Open main Bars3</span>
                     <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
@@ -38,25 +39,25 @@ function Nav(title, { currentPage }){
             </div>
             <div className="hidden md:flex md:space-x-10">
             {navigation.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
-                  className={`font-medium text-gray-400 pb-1 duration-500 ${
-                    item.href === currentPage ? 'border-b-2 border-primary text-primary' : 'border-transparent'
+                  to={item.href}
+                  className={`font-medium text-gray-400 pb-1 duration-500 hover:border-light border-b-2  ${
+                    item.href === currentPage ? ' border-primary text-primary' : 'border-transparent hover:border-light hover:text-light'
                   }`}
                 >
-                  {item.name}
-                </a>
+                  {item.name} 
+                </Link>
               ))}
 
             </div>
             <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
               <span className="inline-flex rounded-md shadow">
                 <a
-                  href="#login"
+                  href="https://github.com/amineflex/carnetculturel" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-base font-medium rounded-md text-white bg-secondary border-transparent border-3  hover:border-primary  duration-500"
                 >
-                  Se connecter
+                 <CodeBracketIcon className='w-6 h-6 mr-2 text-light' /> Code source
                 </a>
               </span>
             </div>
@@ -104,10 +105,10 @@ function Nav(title, { currentPage }){
                 ))}
               </div>
               <a
-                href="#"
+                href="https://github.com/amineflex/carnetculturel" target="_blank" rel="noopener noreferrer"
                 className="block w-full px-5 py-3 text-center font-medium text-primary bg-light bg-opacity-75 hover:bg-opacity-100 hover:text-secondary duration-500"
               >
-                Se connecter
+               <span className='inline-flex'><CodeBracketIcon className='w-5 h-5 mr-1' /> Code source </span> 
               </a>
             </div>
           </Popover.Panel>

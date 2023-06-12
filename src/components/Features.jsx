@@ -3,6 +3,7 @@ import React from 'react';
 import { PaintBrushIcon, AcademicCapIcon, BuildingLibraryIcon, BookOpenIcon, GlobeEuropeAfricaIcon, LockOpenIcon, ArrowSmallRightIcon } from "@heroicons/react/24/outline";
 import schema from '../img/schema.png';
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import { Link } from 'react-router-dom';
 
 const features = [
   {
@@ -68,17 +69,17 @@ export default function Features() {
                 </div>
               </dl>
               <div className="grid grid-cols-2 grid-rows-2 gap-4">
-                <a href="/perso" className="group inline-flex text-center items-center justify-center px-4 py-2 text-base font-medium rounded-md text-light bg-primary border-primary border-2 hover:bg-light hover:text-primary duration-500">
+                <Link to="/perso" className="group inline-flex text-center items-center justify-center px-4 py-2 text-base font-medium rounded-md text-light bg-primary border-primary border-2 hover:bg-light hover:text-primary duration-500">
                 <ChevronRightIcon className="h-6 w-6 text-light group-hover:text-primary" /> 1 - Exp. perso
-                </a>
+                </Link>
 
-                <a href="/ecole" className=" group inline-flex text-center items-center justify-center px-4 py-2 text-base font-medium rounded-md text-light bg-secondary border-secondary border-2 hover:bg-light hover:text-secondary duration-500">
+                <Link to="/ecole" className=" group inline-flex text-center items-center justify-center px-4 py-2 text-base font-medium rounded-md text-light bg-secondary border-secondary border-2 hover:bg-light hover:text-secondary duration-500">
                 <ChevronRightIcon className="h-6 w-6 text-light group-hover:text-secondary" /> 2 - Exp. école
-                </a>
+                </Link>
 
-                <a href="/bilan" className="col-span-2 group inline-flex text-center items-center justify-center px-4 py-2 text-base font-medium rounded-md hover:text-light hover:bg-darkbrown border-darkbrown border-2 bg-light text-darkbrown duration-500">
+                <Link to="/bilan" className="col-span-2 group inline-flex text-center items-center justify-center px-4 py-2 text-base font-medium rounded-md hover:text-light hover:bg-darkbrown border-darkbrown border-2 bg-light text-darkbrown duration-500">
                 <ChevronRightIcon className="h-6 w-6 group-hover:text-light text-darkbrown" /> 3 - Bilan
-                </a>
+                </Link>
 
               </div>
             </div>

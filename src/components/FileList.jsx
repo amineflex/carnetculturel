@@ -1,13 +1,14 @@
 import React from 'react';
+import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
 
   
   export default function FileList({ list }) {
     return (
       <div className="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
 
-        <div className="-mx-4  overflow-hidden  sm:-mx-6 md:mx-0 md:rounded-lg p-3">
-          <table className="min-w-full divide-y divide-gray-300 rounded-lg">
-            <thead className="bg-darkbrown " >
+        <div className="-mx-4 overflow-hidden  sm:-mx-6 md:mx-0 rounded-lg p-3">
+          <table className="min-w-full divide-y divide-light">
+            <thead className="bg-darkbrown rounded-t-lg" >
               <tr>
                 <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-light sm:pl-6">
                   Titre
@@ -45,8 +46,8 @@ import React from 'react';
                   <td className="hidden px-3 py-4 text-sm text-gray-200 sm:table-cell">{item.support}</td>
                   <td className="px-3 py-4 text-sm text-gray-200">{item.type}</td>
                   <td className="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                    <a href={item.link} className="text-light font-extrabold hover:underline">
-                      Voir
+                    <a href={item.link} className="inline-flex text-light font-extrabold hover:underline">
+                      <ArrowSmallRightIcon className='w-5 h-5 ml text-darkbrown opacity-50' /> Voir
                     </a>
                   </td>
                 </tr>
