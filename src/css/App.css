@@ -1,0 +1,16 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://stijndv.com/fonts/Eudoxus-Sans.css');
+
+body{
+    font-family: "eudoxus sans", sans-serif;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
