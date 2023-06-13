@@ -8,7 +8,7 @@ import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
 
         <div className="-mx-4 overflow-hidden  sm:-mx-6 md:mx-0 rounded-lg p-3">
           <table className="min-w-full divide-y divide-light">
-            <thead className="bg-darkbrown rounded-t-lg" >
+            <thead className="bg-darkbrown rounded-xl" >
               <tr>
                 <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-light sm:pl-6">
                   Titre

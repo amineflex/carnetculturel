@@ -11,9 +11,10 @@ import BilanPage from "./pages/BilanPage";
 
 
 // CC Perso
-import ZeldaMM from './pages/persos/ZeldaMM';
-import BreakingBad from './pages/persos/BreakingBad';
-import ZeldaTotk from './pages/persos/ZeldaTotk';
+import ZeldaMM from './pages/perso/ZeldaMM';
+import BreakingBad from './pages/perso/BreakingBad';
+import ZeldaTotk from './pages/perso/ZeldaTotk';
+import Oujda from './pages/perso/Oujda';
 
 // CC École
 
@@ -29,9 +30,10 @@ function App() {
           <Route path="/ecole" element={<EcolePage />} />
           <Route path="/bilan" element={<BilanPage />} />
           
-          <Route path="/persos/zeldamm" element={<ZeldaMM />} />
-          <Route path="/persos/breakingbad" element={<BreakingBad />} />
-          <Route path="/persos/zeldatotk" element={<ZeldaTotk />} />
+          <Route path="/perso/zeldamm" element={<ZeldaMM />} />
+          <Route path="/perso/breakingbad" element={<BreakingBad />} />
+          <Route path="/perso/zeldatotk" element={<ZeldaTotk />} />
+          <Route path="/perso/oujda" element={<Oujda />} />
 
 
       </Routes>

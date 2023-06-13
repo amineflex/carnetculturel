@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LogoIcon from '../img/logo.svg';
 
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
@@ -26,7 +27,7 @@ function Nav(title){
                 <Link to="/">
                   <img
                     className="h-8 w-auto sm:h-10 select-none"
-                    src="https://www.zelda.com/tears-of-the-kingdom/images/heading-shape.svg"
+                    src={LogoIcon}
                     alt="Logo"
                   />
                 </Link>
