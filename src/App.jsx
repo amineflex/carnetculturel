@@ -17,7 +17,7 @@ import ZeldaTotk from './pages/perso/ZeldaTotk';
 import Oujda from './pages/perso/Oujda';
 
 // CC École
-
+import Songe from './pages/ecole/Songe';
 
 
 function App() {
@@ -34,6 +34,8 @@ function App() {
           <Route path="/perso/breakingbad" element={<BreakingBad />} />
           <Route path="/perso/zeldatotk" element={<ZeldaTotk />} />
           <Route path="/perso/oujda" element={<Oujda />} />
+          
+          <Route path="/ecole/songe" element={<Songe />} />
 
 
       </Routes>

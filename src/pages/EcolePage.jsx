@@ -9,7 +9,7 @@ const subtitle = "Mon Carnet Culturel";
 const desc = "Toutes les expériences que j'ai vécu à l'école";
 
 const list = [
-  { name: 'NAME', author: 'AUTEUR', support: 'SUPPORT', type: 'GENRE', link: '/ecole/#1' },
+  { name: 'Le songe d\'une nuit d\'été', author: 'Shakespeare/D\'Hoop', support: 'Théatre', type: 'Comédue/Fantasy', link: '/ecole/songe' },
 
 ]
 

@@ -10,11 +10,11 @@ const subtitle = "Mon Carnet Culturel";
 const desc = "Toutes les expériences que j'ai vécu hors de l'école";
 
 const list = [
-  { name: 'Zelda : Majora\'s Mask', author: 'Eiji Aonuma', support: 'Jeu vidéo', type: 'Action, Aventure', link: '/persos/zeldamm' },
-  { name: 'Breaking Bad', author: 'Vince Gilligan', support: 'Série télévisé', type: 'Drame, thriller, crime', link: '/persos/breakingbad' },
-  { name: 'Medina Oujda', author: 'Inconnu', support: 'Architecture', type: 'Marocain', link: '/persos/oujda' },
-  { name: 'Born Pink World Tour', author: 'Black Pink', support: 'Concert', type: 'KPop', link: '/persos/blackpink' },
-  { name: 'Zelda : Tears of the Kingdom', author: 'Eiji Aonuma', support: 'Jeu vidéo', type: 'Action/Aventure', link: '/persos/zeldatotk' },
+  { name: 'Zelda : Majora\'s Mask', author: 'Eiji Aonuma', support: 'Jeu vidéo', type: 'Action, Aventure', link: '/perso/zeldamm' },
+  { name: 'Breaking Bad', author: 'Vince Gilligan', support: 'Série télévisé', type: 'Drame, thriller, crime', link: '/perso/breakingbad' },
+  { name: 'Medina Oujda', author: 'Inconnu', support: 'Architecture', type: 'Marocain', link: '/perso/oujda' },
+  { name: 'Born Pink World Tour', author: 'Black Pink', support: 'Concert', type: 'KPop', link: '/perso/blackpink' },
+  { name: 'Zelda : Tears of the Kingdom', author: 'Eiji Aonuma', support: 'Jeu vidéo', type: 'Action/Aventure', link: '/perso/zeldatotk' },
 ]
 
 function PersoPage() {

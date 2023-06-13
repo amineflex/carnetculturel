@@ -9,7 +9,7 @@ const desc = "Médina Oujda | Maroc";
 
 
 
-function ZeldaMM() {
+function Oujda() {
 
   return (
     
@@ -115,4 +115,4 @@ Dans la tradition marocaine, il est important de savoir accueillir son hôte et 
   );
 }
 
-export default ZeldaMM;
+export default Oujda;
