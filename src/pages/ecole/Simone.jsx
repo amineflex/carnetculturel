@@ -9,7 +9,7 @@ const desc = "Biopic | Par Olivier Dahan";
 
 
 
-function ZeldaMM() {
+function Simone() {
 
   return (
     
@@ -107,4 +107,4 @@ function ZeldaMM() {
   );
 }
 
-export default ZeldaMM;
+export default Simone;

@@ -12,6 +12,8 @@ const list = [
   { name: 'Le songe d\'une nuit d\'été', author: 'Shakespeare/D\'Hoop', support: 'Théatre', type: 'Comédie/Fantasy', link: '/ecole/songe' },
   { name: 'Simone, le voyage du siècle', author: 'Olivier Dahan', support: 'Film', type: 'Biopic', link: '/ecole/simone' },
   { name: 'Mercure', author: 'Amélie Nothomb', support: 'Roman', type: 'Livre', link: '/ecole/mercure' },
+  { name: 'Simple', author: 'Olivier Hespel/Ayelen Parolin', support: 'Thêatre', type: '/', link: '/ecole/simple' },
+
 
 
 ]

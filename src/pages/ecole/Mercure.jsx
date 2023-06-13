@@ -7,7 +7,7 @@ const title = "2.3 - Mercure";
 const subtitle = "Type : Roman";
 const desc = "De Amélie Nothomb";
 
-function ZeldaMM() {
+function Mercure() {
 
   return (
     
@@ -108,4 +108,4 @@ function ZeldaMM() {
   );
 }
 
-export default ZeldaMM;
+export default Mercure;

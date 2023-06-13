@@ -9,7 +9,7 @@ const desc = "Comédie/Fantasy | Shakespare / Repris par D'Hoop JM";
 
 
 
-function ZeldaMM() {
+function Songe() {
 
   return (
     
@@ -118,4 +118,4 @@ Comme Shakespeare est du style baroque, c’est assez logique mais ce genre d’
   );
 }
 
-export default ZeldaMM;
+export default Songe;
