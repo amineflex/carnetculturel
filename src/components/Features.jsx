@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PaintBrushIcon, AcademicCapIcon, BuildingLibraryIcon, BookOpenIcon, GlobeEuropeAfricaIcon, LockOpenIcon, ArrowSmallRightIcon } from "@heroicons/react/24/outline";
+import { PaintBrushIcon, AcademicCapIcon, BuildingLibraryIcon, BookOpenIcon, GlobeEuropeAfricaIcon, LockOpenIcon } from "@heroicons/react/24/outline";
 import schema from '../img/schema.png';
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { Link } from 'react-router-dom';
@@ -55,7 +55,7 @@ export default function Features() {
               </p>
               <dl className="mt-5 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 <h3 className='text-lg font-semibold'>Pour moi, la culture c'est principalement :</h3>
-                <div className="grid grid-cols-2 grid-rows-5 gap-4">
+                <div className="grid grid-cols-2 grid-rows-5 gap-2 md:gab-4">
 
                   {features.map((feature) => (
                     <div key={feature.name} className="relative pl-9">

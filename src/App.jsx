@@ -18,6 +18,8 @@ import Oujda from './pages/perso/Oujda';
 
 // CC École
 import Songe from './pages/ecole/Songe';
+import Simone from './pages/ecole/Simone';
+import Mercure from './pages/ecole/Mercure';
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
           <Route path="/perso/oujda" element={<Oujda />} />
           
           <Route path="/ecole/songe" element={<Songe />} />
+          <Route path="/ecole/simone" element={<Simone />} />
+          <Route path="/ecole/mercure" element={<Mercure />} />
 
 
       </Routes>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
 
   
@@ -32,22 +33,22 @@ import { ArrowSmallRightIcon } from '@heroicons/react/24/outline'
                 </th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-light bg-secondary">
+            <tbody className="divide-y divide-darkbrown bg-light">
               {list.map((item) => (
                 <tr key={item.support}>
-                  <td className="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-light sm:w-auto sm:max-w-none sm:pl-6">
-                    <span className="font-extrabold">{item.name}</span>
+                  <td className="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-darkbrown sm:w-auto sm:max-w-none sm:pl-6">
+                    <Link to={item.link} className="font-extrabold hover:text-secondary duration-300">{item.name}</Link>
                     <dl className="font-normal lg:hidden">
-                      <dd className="mt-1 truncate text-light">{item.author}</dd>
-                      <dd className="mt-1 truncate text-gray-200 sm:hidden">Type : {item.support}</dd>
+                      <dd className="mt-1 truncate text-darkbrown opacity-50">{item.author}</dd>
+                      <dd className="mt-1 truncate text-darkbrown opacity-50 sm:hidden">{item.support}</dd>
                     </dl>
                   </td>
-                  <td className="hidden px-3 py-4 text-sm text-gray-200 lg:table-cell">{item.author}</td>
-                  <td className="hidden px-3 py-4 text-sm text-gray-200 sm:table-cell">{item.support}</td>
-                  <td className="px-3 py-4 text-sm text-gray-200">{item.type}</td>
-                  <td className="py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                    <a href={item.link} className="inline-flex text-light font-extrabold hover:underline">
-                      <ArrowSmallRightIcon className='w-5 h-5 ml text-darkbrown opacity-50' /> Voir
+                  <td className="hidden px-3 py-4 text-sm text-darkbrown opacity-75 lg:table-cell">{item.author}</td>
+                  <td className="hidden px-3 py-4 text-sm text-darkbrown opacity-75 sm:table-cell">{item.support}</td>
+                  <td className="px-3 py-4 text-sm text-secondary ">{item.type}</td>
+                  <td className="py-4 pl-3 pr-4 text-right  sm:pr-6">
+                    <a href={item.link} className="group inline-flex text-primary font-extrabold hover:underline duration-300">
+                      <ArrowSmallRightIcon className='w-6 h-6 ml text-primary opacity-75 group-hover:opacity-100' /> Voir
                     </a>
                   </td>
                 </tr>

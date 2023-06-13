@@ -9,7 +9,10 @@ const subtitle = "Mon Carnet Culturel";
 const desc = "Toutes les expériences que j'ai vécu à l'école";
 
 const list = [
-  { name: 'Le songe d\'une nuit d\'été', author: 'Shakespeare/D\'Hoop', support: 'Théatre', type: 'Comédue/Fantasy', link: '/ecole/songe' },
+  { name: 'Le songe d\'une nuit d\'été', author: 'Shakespeare/D\'Hoop', support: 'Théatre', type: 'Comédie/Fantasy', link: '/ecole/songe' },
+  { name: 'Simone, le voyage du siècle', author: 'Olivier Dahan', support: 'Film', type: 'Biopic', link: '/ecole/simone' },
+  { name: 'Mercure', author: 'Amélie Nothomb', support: 'Roman', type: 'Livre', link: '/ecole/mercure' },
+
 
 ]
 
