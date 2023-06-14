@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import TimeToCook from '../../vids/timetocook.mp4'
 
 const title = "1.2 - Breaking Bad";
 const subtitle = "Type : Série";
@@ -45,7 +46,16 @@ function BreakingBad() {
             <div id='description' className='pb-4'>
                 <h1 className="text-secondary text-3xl font-bold">2 | Description</h1>
                 <p className='text-base mt-3 ml-10'>
-                Breaking Bad est une série télévisée captivante qui se passe dans l’univers sombre et tragique de Walter White, un professeur de chimie devenu fabricant de méthamphétamine. Walter se lance dans le monde dangereux de la criminalité après avoir été diagnostiqué d’un cancer en phase terminale, déterminé à subvenir aux besoins de sa famille. Au fil des saisons, on observe sa transformation en un redoutable chef de cartel, accompagné de son ancien élève Jesse Pinkman. La série explore les thèmes de la moralité, de la désillusion et de la descente aux enfers, offrant une intrigue intense et une brillante interprétation des personnages principaux.
+                Breaking Bad est une série télévisée captivante qui se passe dans l’univers sombre et tragique de Walter White, un professeur de chimie devenu fabricant de 
+                méthamphétamine. Walter se lance dans le monde dangereux de la criminalité après avoir été diagnostiqué d’un cancer en phase terminale, déterminé à 
+                subvenir aux besoins de sa famille. Au fil des saisons, on observe sa transformation en un redoutable chef de cartel, accompagné de son ancien élève Jesse Pinkman. 
+                La série explore les thèmes de la moralité, de la désillusion et de la descente aux enfers, offrant une intrigue intense et une brillante interprétation 
+                des personnages principaux.
+                <br /><br />
+                II interpella Jesse et lui proposa de devenir son partenaire. Ensemble, ils se lancèrent dans le <i>business</i>, White s'occupant de la production et Pinkman de la distribution. Voici un extrait du début de leur aventure :
+
+                <video src={TimeToCook} width="600" height="300" className="video max-h-[600px] my-10" controls="controls" autoplay="false"></video>
+
                 </p>
             </div>
 
