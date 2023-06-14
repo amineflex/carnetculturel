@@ -21,6 +21,7 @@ import Songe from './pages/ecole/Songe';
 import Simone from './pages/ecole/Simone';
 import Mercure from './pages/ecole/Mercure';
 import Simple from './pages/ecole/Simple';
+import Huisclos from './pages/ecole/HuisClos';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/ecole/simone" element={<Simone />} />
           <Route path="/ecole/mercure" element={<Mercure />} />
           <Route path="/ecole/simple" element={<Simple />} />
+          <Route path="/ecole/huisclos" element={<Huisclos />} />
           
           <Route path='*' element={<h1>404</h1>} />
 

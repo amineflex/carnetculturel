@@ -32,7 +32,7 @@ function Nav(title){
                   />
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-light rounded-md p-2 inline-flex items-center justify-center text-secondary hover:text-light hover:bg-secondary focus:outline-none duration-500">
+                  <Popover.Button className="bg-black rounded-md p-2 inline-flex items-center justify-center text-secondary hover:text-light hover:bg-darkbrown hover:border-secondary border-2 border-transparent focus:outline-none focus:ring-1 focus:ring-inset focus:ring-secondary duration-500">
                     <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
@@ -83,12 +83,12 @@ function Nav(title){
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://www.zelda.com/tears-of-the-kingdom/images/heading-shape.svg"
-                    alt=""
+                    src={LogoIcon}
+                    alt="Logo"
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
+                  <Popover.Button className="rounded-lg p-1 inline-flex items-center justify-center text-light bg-secondary hover:bg-opacity-50 border-2 border-transparent hover:border-secondary focus:outline-none focus:ring-1 focus:ring-inset focus:ring-secondary duration-500">
                     <span className="sr-only">Close main Bars3</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>

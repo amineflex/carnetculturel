@@ -15,7 +15,7 @@ export default function Footer(){
                  <img src={LogoIcon} width={"33px"} height={"28px"} alt='shape' />
               </h1>
                 <p className="text-light opacity-60 mt-3">
-                    Année scolaire 2022-2023 | Ursulines Mons
+                    Année scolaire 2021-2023 | Ursulines Mons
                     <br />
                     <small>Mme Chalet - Cours de Français</small>
                 </p>

@@ -13,9 +13,7 @@ const list = [
   { name: 'Simone, le voyage du siècle', author: 'Olivier Dahan', support: 'Film', type: 'Biopic', link: '/ecole/simone' },
   { name: 'Mercure', author: 'Amélie Nothomb', support: 'Roman', type: 'Livre', link: '/ecole/mercure' },
   { name: 'Simple', author: 'Olivier Hespel/Ayelen Parolin', support: 'Thêatre', type: '/', link: '/ecole/simple' },
-
-
-
+  { name: 'Huis-Clos', author: 'Jean-Paul Sartre', support: 'Thêatre', type: 'Existentialiste', link: '/ecole/huisclos' },
 ]
 
 function EcolePage() {
