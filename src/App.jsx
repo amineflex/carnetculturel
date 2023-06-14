@@ -47,7 +47,7 @@ function App() {
           <Route path="/ecole/simple" element={<Simple />} />
           <Route path="/ecole/huisclos" element={<Huisclos />} />
           
-          <Route path='*' element={<h1>404</h1>} />
+          <Route path='*' element={<h1 className='text-5xl text-center mt-10 font-bold'>Erreur 404 <br /> <span className='text-lg mt-1 font-normal'>Cette page n'existe pas</span></h1> } />
 
 
       </Routes>
