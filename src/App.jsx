@@ -15,6 +15,7 @@ import ZeldaMM from './pages/perso/ZeldaMM';
 import BreakingBad from './pages/perso/BreakingBad';
 import ZeldaTotk from './pages/perso/ZeldaTotk';
 import Oujda from './pages/perso/Oujda';
+import Lucie from './pages/perso/Lucie';
 
 // CC École
 import Songe from './pages/ecole/Songe';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/perso/breakingbad" element={<BreakingBad />} />
           <Route path="/perso/zeldatotk" element={<ZeldaTotk />} />
           <Route path="/perso/oujda" element={<Oujda />} />
+          <Route path="/perso/lucie" element={<Lucie />} />
           
           <Route path="/ecole/songe" element={<Songe />} />
           <Route path="/ecole/simone" element={<Simone />} />

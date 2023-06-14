@@ -13,7 +13,7 @@ const list = [
   { name: 'Zelda : Majora\'s Mask', author: 'Eiji Aonuma', support: 'Jeu vidéo', type: 'Action, Aventure', link: '/perso/zeldamm' },
   { name: 'Breaking Bad', author: 'Vince Gilligan', support: 'Série télévisé', type: 'Drame, thriller, crime', link: '/perso/breakingbad' },
   { name: 'Medina Oujda', author: 'Inconnu', support: 'Architecture', type: 'Marocain', link: '/perso/oujda' },
-  { name: 'Born Pink World Tour', author: 'Black Pink', support: 'Concert', type: 'KPop', link: '/perso/blackpink' },
+  { name: 'Lucie et les papillons', author: 'David Mesguich', support: 'Statue', type: 'Contemporain', link: '/perso/lucie' },
   { name: 'Zelda : Tears of the Kingdom', author: 'Eiji Aonuma', support: 'Jeu vidéo', type: 'Action/Aventure', link: '/perso/zeldatotk' },
 ]
 
