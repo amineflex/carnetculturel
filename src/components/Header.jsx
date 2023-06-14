@@ -30,6 +30,9 @@ function Header({ title, subtitle, desc }) {
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-400 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             {desc}
+            {subtitle === 'Par Amine Benameur' && (
+                <div className='mt-1 text-base text-primary opacity-75'>Année 2021/2023 | Mme Chalet C. - Français</div>
+              )}
           </p>
         </div>
       </div>

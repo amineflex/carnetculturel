@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PaintBrushIcon, AcademicCapIcon, BuildingLibraryIcon, BookOpenIcon, GlobeEuropeAfricaIcon, LockOpenIcon } from "@heroicons/react/24/outline";
+import { PaintBrushIcon, AcademicCapIcon, BuildingLibraryIcon, BookOpenIcon, GlobeEuropeAfricaIcon, LockOpenIcon, NewspaperIcon } from "@heroicons/react/24/outline";
 import schema from '../img/schema.png';
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { Link } from 'react-router-dom';
@@ -24,7 +24,7 @@ const features = [
   },
   {
     name: 'Les réferences culturelles',
-    icon: PaintBrushIcon,
+    icon: NewspaperIcon,
   },
   {
     name: 'L\'art',
@@ -59,7 +59,7 @@ export default function Features() {
 
                   {features.map((feature) => (
                     <div key={feature.name} className="relative pl-9">
-                      <dt className="inline  text-gray-900">
+                      <dt className="inline  text-darkbrown">
                         <feature.icon className="absolute left-1 top-1 h-6 w-6 text-primary" aria-hidden="true" />
                         {feature.name}
                       </dt>

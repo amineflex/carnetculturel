@@ -4,6 +4,7 @@ import React from 'react';
 import Features from '../components/Features';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import CarouselImg from '../components/Carousel';
 import CultureImage from '../img/culture.png'
 
 const title = "Mon Carnet Culturel";
@@ -19,6 +20,7 @@ function HomePage() {
           <div className="relative overflow-hidden">
         
           <Header title={title} subtitle={subtitle} desc={desc} />
+        
     
             <div className="relative">
               <div className="absolute inset-0 flex flex-col" aria-hidden="true">
@@ -26,11 +28,13 @@ function HomePage() {
                 <div className="flex-1 w-full bg-light" />
               </div>
               <div className="max-w-5xl mx-auto px-4 sm:px-6">
-                <img
+                { /*<img
                   className="relative rounded-3xl select-none shadow-lg sm:rounded-3xl sm:h-72 md:h-96 lg:w-full lg:h-full"
                   src={CultureImage}
                   alt="Switch"
-                />
+                /> */}
+
+                <CarouselImg />
 
               </div>
               <h2 className='text-lg text-black'>

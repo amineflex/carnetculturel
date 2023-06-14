@@ -30,7 +30,7 @@ function ZeldaMM() {
 
           Après deux années de participation à diverses expériences culturelles, je constate un enrichissement notable sur le plan culturel. Cependant, ma perception générale de la culture n'a pas subi de changement radical.
           <br /><br />
-          Initialement, je concevais la culture comme étant l'histoire et le patrimoine d'une civilisation. Chaque société possède sa propre culture qui forge son identité et témoigne du savoir et de la créativité des êtres humains. Les références culturelles agissent comme des liens communs qui rassemblent les individus.
+          Initialement, je concevais la culture comme étant l'histoire et le patrimoine d'une civilisation. Chaque société possède sa propre culture qui forge son identité et témoigne du savoir et de la créativité des êtres humains. Les références culturelles agissent comme des liens communs qui rassemblent les individus. La culture est un attrait important pour nous, humains. Comme disait Antoine Rivarol, « L’homme sans culture est un arbre sans fruit ».
           <br /><br />
           À mes yeux, la culture représente le développement d'une vision du monde. Elle élargit notre ouverture d'esprit, enrichit nos connaissances et nous permet d'explorer la diversité intellectuelle.
           <br /><br />
